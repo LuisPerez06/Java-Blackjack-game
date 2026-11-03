@@ -57,6 +57,7 @@ public class Game {
                 if (choice == 1) {
                     playerHand[playerHandPoint] = deck.drawCard();
                     playerHandPoint++;
+                    System.out.print("PLAYER HAND: ")
                     deck.displayHand(playerHand);
                     System.out.println("Value: " + sumOfHand(playerHand));
                     if (sumOfHand(playerHand) > 21) {
