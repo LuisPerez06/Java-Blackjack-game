@@ -12,7 +12,7 @@ public class Deck {
             r1 = (int)(Math.random()*4);
             switch(r1){
                 case 0:
-                    suit = "HEART";
+                    suit = "HEARTS";
                     break;
                 case 1:
                     suit = "DIAMONDS";
